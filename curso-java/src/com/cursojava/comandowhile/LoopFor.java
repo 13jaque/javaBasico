@@ -13,7 +13,8 @@ public class LoopFor {
             System.out.println("i tem valor: " +i  );
         }
         //Com mais de uma variavel
-        for (int i = 0, j = 10; i < 10; i++, j--){
+        //contagem de 1 a 10 e depois de 10 a 9
+        for (int i = 1, j = 10; i <= 10; i++, j--){
             System.out.println("i = " + i + " - j = " + j);
         }
         //Partes ausentes
